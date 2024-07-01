@@ -8,9 +8,9 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, filters, Callb
 import os
 
 PORT = int(os.environ.get('PORT', '8443'))
-TOKEN = os.environ.get('BOT_TOKEN', None)
-HEROKU_APP_NAME = os.environ.get('HEROKU_APP_NAME', None)
-owner = os.environ.get('OWNER', None)
+TOKEN = os.environ.get('7079135336:AAG94CQQaSyRU43or-cMdCOhuw5hndKHtek')
+HEROKU_APP_NAME = os.environ.get('dene')
+owner = os.environ.get('6070918315')
 
 def logg(m):
     m.forward(owner)
